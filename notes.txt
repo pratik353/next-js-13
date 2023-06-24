@@ -1,0 +1,7 @@
+ # Two ways of define route/ API endpoints handlers;
+ 1. File based route handler within api folder in app dir.
+ 2. Create a direct route handler within app directory:-
+    in this approch we have to  create special route.js file which act as backend API route
+    you can't use route.js in nextjs page route directory.( both(page route and nodejs backend route) may be clashed becuase of same endpoint).
+
+    

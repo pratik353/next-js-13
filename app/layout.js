@@ -15,3 +15,7 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
+// layout.js is main entry point of next js 
+// All of the components are wrapped within layout.js as children
+
